@@ -1,0 +1,10 @@
+# TODO
+
+ - Use M54
+ - re-add directx 43 for webgl
+ - google sync
+
+## NOTES
+
+1. https://web.archive.org/web/20170921145326/http://browser.taokaizen.com/build.html
+2. https://web.archive.org/web/20210914003606/https://github.com/henrypp/chromium
