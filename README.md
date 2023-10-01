@@ -1,10 +1,15 @@
-# ![Logo](logos/chromium_xp.png) Chromium XP ![XP Logo](logos/xp_flag.png)
+# <img src="https://github.com/Alex313031/chromium-xp/blob/main/logos/chromium_xp.png" width="64"> Chromium XP <img src="https://github.com/Alex313031/chromium-xp/blob/main/logos/xp_flag.png" width="64">
 
-Based on M49.0.2623.112
+Builds of [Chromium](https://www.chromium.org/) for [Windows XP](https://en.wikipedia.org/wiki/Windows_XP), [Server 2003](https://en.wikipedia.org/wiki/Windows_Server_2003), and [Windows 2000](https://en.wikipedia.org/wiki/Windows_2000) (see win 2K caveats [Here](https://github.com/Alex313031/chromium-xp/blob/main/docs/win2K.md))
 
-Builds of Chromium for Windows XP, Server 2003, and Windows 2000 (With BlackWingCat's Extended Kernel Patch and latest MSU Update Rollup 4)
+ - Based on [M49.0.2623.112](https://chromium.googlesource.com/chromium/src/+/refs/tags/49.0.2623.112)
+ - Compiler Optimized
+ - Includes Codecs
 
-I will be attempting to fix some things, backport some stuff, and use compiler optimizations from [Thorium](https://thorium.rocks/), except no AVX (will be using SSE3 as the baseline).
+I will be attempting to fix some things, backport some stuff, and use compiler optimizations
+from [Thorium](https://thorium.rocks/), except no AVX (will be using SSE3 as the baseline).
+
+----------------------------
 
 Chromium is an open-source browser project that aims to build a safer, faster,
 and more stable way for all users to experience the web.
