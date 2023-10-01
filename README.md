@@ -1,4 +1,4 @@
-# <img src="https://github.com/Alex313031/chromium-xp/blob/main/logos/chromium_xp.png" width="64"> Chromium XP <img src="https://github.com/Alex313031/chromium-xp/blob/main/logos/xp_flag.png" width="64">
+# <img src="https://github.com/Alex313031/chromium-xp/blob/main/logos/chromium_xp.png" width="64">&nbsp; Chromium XP &nbsp;<img src="https://github.com/Alex313031/chromium-xp/blob/main/logos/xp_flag.png" width="64">
 
 Builds of [Chromium](https://www.chromium.org/) for [Windows XP](https://en.wikipedia.org/wiki/Windows_XP), [Server 2003](https://en.wikipedia.org/wiki/Windows_Server_2003), and [Windows 2000](https://en.wikipedia.org/wiki/Windows_2000) (see win 2K caveats [Here](https://github.com/Alex313031/chromium-xp/blob/main/docs/win2K.md))
 
