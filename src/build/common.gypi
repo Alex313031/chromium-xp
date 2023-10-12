@@ -1,4 +1,4 @@
-# Copyright (c) 2012 The Chromium Authors. All rights reserved.
+# Copyright (c) 2023 The Chromium Authors and Alex313031. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
@@ -2560,8 +2560,8 @@
       'release_valgrind_build%': '<(release_valgrind_build)',
 
       # the non-qualified versions are widely assumed to be *nix-only
-      'win_release_extra_cflags%': '',
-      'win_debug_extra_cflags%': '',
+      'win_release_extra_cflags%': '/O2',
+      'win_debug_extra_cflags%': '/O2',
 
       # TODO(thakis): Make this a blacklist instead, http://crbug.com/101600
       'enable_wexit_time_destructors%': '<(enable_wexit_time_destructors)',
@@ -3491,6 +3491,7 @@
             'AdditionalOptions': [
                 '/d2Zi+',  # Improve debugging of Release builds.
                 '/Zc:inline',  # Remove unreferenced COMDAT (faster links).
+                '/arch:SSE2',  # SSE2.
                 '<@(win_release_extra_cflags)',
             ],
           },
@@ -5596,9 +5597,9 @@
                     'msvs_settings': {
                       'VCCLCompilerTool': {
                         # 1, optimizeMinSpace, Minimize Size (/O1)
-                        'Optimization': '1',
+                        'Optimization': '2',
                         # 2, favorSize - Favor small code (/Os)
-                        'FavorSizeOrSpeed': '2',
+                        'FavorSizeOrSpeed': '1',
                       },
                     },
                   },
@@ -5609,9 +5610,9 @@
                     'msvs_settings': {
                       'VCCLCompilerTool': {
                         # 1, optimizeMinSpace, Minimize Size (/O1)
-                        'Optimization': '1',
+                        'Optimization': '2',
                         # 2, favorSize - Favor small code (/Os)
-                        'FavorSizeOrSpeed': '2',
+                        'FavorSizeOrSpeed': '1',
                       },
                     },
                   },

@@ -7,7 +7,7 @@ Builds of [Chromium](https://www.chromium.org/) for [Windows XP](https://en.wiki
  - Includes Codecs
 
 I will be attempting to fix some things, backport some stuff, and use compiler optimizations
-from [Thorium](https://thorium.rocks/), except no AVX (will be using SSE3 as the baseline).
+from [Thorium](https://thorium.rocks/), except no AVX (will be using [SSE2](https://en.wikipedia.org/wiki/SSE2#CPU_support) as the baseline).
 
 ----------------------------
 
