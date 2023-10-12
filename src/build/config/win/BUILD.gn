@@ -71,6 +71,8 @@ config("compiler") {
         "-fansi-escape-codes",
       ]
     }
+  } else {
+    cflags += [ "/ARCH:SSE2" ]
   }
 
   if (is_syzyasan) {
