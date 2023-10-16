@@ -3,8 +3,8 @@
  - Backport M54 patches like Advanced Chrome
  - re-add d3dcompiler_43.dll for hardware GPU acceleration
  - Add repo wide LTO flags like modern Chromium
- - Add prebuilt swiftshader from Chrome binary to installer
  - Google Sync
+ - Convert user32.dll exports to GN
 
 ## NOTES
 
